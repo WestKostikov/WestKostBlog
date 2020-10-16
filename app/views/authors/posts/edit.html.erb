@@ -8,4 +8,10 @@
   	  </div>
   	</div>
   </div>
+  <div class="col-md-9">
+  	<%= form_with(model: [@post, @paragraph]) do |form| %>
+  	  <%= form.hidden_field :element_type, value: 'paragraph' %>
+  	  <% form.submit %>
+  	<% end %>
+  </div>
 </div>
