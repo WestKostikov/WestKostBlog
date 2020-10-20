@@ -27,7 +27,7 @@ document.addEventListener('turbolinks:load', () => {
 		if (!element) return;
 
 		element.classList.add('d-none')
-		element.nextElementSibling.classList.remove(d-none)
+		element.nextElementSibling.classList.remove('d-none')
 	})
 
 	document.addEventListener('click', () => {
